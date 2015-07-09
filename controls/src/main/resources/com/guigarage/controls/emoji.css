@@ -1,0 +1,16 @@
+.emoji-button {
+    -fx-font-family: OpenSansEmoji;
+    -fx-font-size: 24;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.emoji-button:hover {
+    -fx-text-fill: deepskyblue;
+}
+
+.emoji-pane {
+    -fx-padding: 6;
+    -fx-background-color: lightgray;
+    -fx-border-color: darkgrey;
+}

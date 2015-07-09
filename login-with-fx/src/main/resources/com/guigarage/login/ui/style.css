@@ -1,0 +1,33 @@
+.login-button {
+    -fx-text-fill: white;
+    -fx-border-color: #929000;
+    -fx-background-color: #929000;
+    -fx-background-radius: 6;
+    -fx-background-insets: 0;
+    -fx-border-insets: -0.5;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-effect: null;
+}
+
+.login-button:hover {
+    -fx-border-color: white;
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.2), 5, 0.0 , 0, 2);
+}
+
+.facebook-login-button {
+    -fx-background-color: #3b5998;
+    -fx-border-color: #3b5998;
+}
+
+.twitter-login-button {
+    -fx-background-color: #2ba9e1;
+    -fx-border-color: #2ba9e1;
+
+}
+
+.google-login-button {
+    -fx-background-color: #dd4b39;
+    -fx-border-color: #dd4b39;
+
+}

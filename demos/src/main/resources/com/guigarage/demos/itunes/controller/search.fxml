@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="searchBackground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false">
+         <children>
+            <StackPane fx:id="logoPane" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets bottom="24.0" />
+               </VBox.margin>
+            </StackPane>
+            <HBox>
+               <children>
+                  <TextField fx:id="searchField" maxHeight="-Infinity" maxWidth="-Infinity" promptText="search an artist" VBox.vgrow="NEVER" />
+                  <Button fx:id="goButton" mnemonicParsing="false" text="Go" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="24.0" left="24.0" right="24.0" top="24.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

@@ -1,0 +1,123 @@
+
+#toolbar {
+    -fx-padding: 12 12 1 12;
+    -fx-background-color: deepskyblue;
+    -fx-border-color: blue;
+    -fx-border-width: 0 0 1 0;
+}
+
+#toolbar:medium-device {
+    -fx-padding: 6 6 1 6;
+}
+
+#toolbar:small-device {
+    -fx-padding: 2 2 1 2;
+}
+
+#toolbar:extreme-small-device {
+    -fx-padding: 1 1 0 1;
+    -fx-background-image: url(blue-background.png);
+}
+
+#toolbar:large-device {
+    -fx-padding: 1 1 0 1;
+    -fx-background-image: url(blue-background.png);
+}
+
+.toolbar-button {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 6 6 1 6;
+    -fx-alignment: bottom-center;
+    -fx-font-size: 20;
+}
+
+.toolbar-button:hover {
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+.toolbar-button:medium-device {
+    -fx-padding: 6 6 2 6;
+    -fx-font-size: 16;
+}
+
+.toolbar-button:small-device {
+    -fx-font-family: FontAwesome;
+    -fx-padding: 6 6 2 6;
+    -fx-font-size: 12;
+}
+
+.toolbar-button:extreme-small-device {
+    -fx-padding: 6 6 2 6;
+}
+
+#application-icon {
+    -fx-text-fill: white;
+    -fx-icon-text: "\uf086";
+    -fx-font-size: 128;
+    -fx-padding: 6;
+}
+
+#application-icon:large-device .text {
+    -fx-stroke: lightskyblue;
+    -fx-stroke-width: 3;
+}
+
+#application-icon:medium-device {
+    -fx-font-size: 64;
+    -fx-padding: 4;
+}
+
+#application-icon:small-device {
+    -fx-font-size: 32;
+    -fx-padding: 2 12 2 2;
+}
+
+
+#application-icon:extreme-small-device {
+    -fx-font-size: 24;
+    -fx-padding: 1;
+}
+
+#application-icon:extreme-small-device:hover {
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 2 0;
+}
+
+#contacts-button {
+    -fx-icon-text: "contacts";
+}
+
+#contacts-button:small-device {
+    -fx-icon-text: "\uf0c0";
+}
+
+#upload-button {
+    -fx-icon-text: "upload";
+}
+
+#upload-button:small-device {
+    -fx-icon-text: "\uf093";
+}
+
+#settings-button {
+    -fx-icon-text: "settings";
+}
+
+#settings-button:small-device {
+    -fx-icon-text: "\uf085";
+}
+
+#main-pane {
+    -fx-background-color: white;
+    -fx-padding: 12;
+}
+
+#main-pane:extreme-small-device {
+    -fx-background-color: white;
+    -fx-padding: 0;
+}

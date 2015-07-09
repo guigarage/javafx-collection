@@ -1,0 +1,54 @@
+.window-bar {
+    -fx-background-color: linear-gradient(to top, lightgray, white 60%);
+    -fx-border-color: lightgray;
+    -fx-min-height: 64;
+    -fx-pref-height: 64;
+    -fx-max-height: 64;
+
+    -fx-padding: 8 8 0 0;
+}
+
+.window-bar:window-focused {
+    -fx-background-color: linear-gradient(to top, lightgray, white 60%);
+    -fx-border-color: lightgray;
+}
+
+.window-bar:window-fullscreen {
+    -fx-background-color: linear-gradient(to top, lightgray, white 60%);
+    -fx-border-color: lightgray;
+    -fx-min-height: 32;
+    -fx-pref-height: 32;
+    -fx-max-height: 32;
+
+}
+
+.window-bar-button {
+    -fx-effect: innershadow(two-pass-box, lightgray, 4, 0.0, 0, 1);
+    -fx-min-height: 24;
+    -fx-pref-height: 24;
+    -fx-min-width: 24;
+    -fx-pref-width: 24;
+    -fx-background-radius: 12;
+    -fx-border-color: black;
+    -fx-border-radius: 12;
+    -fx-border-width: 2 !important;
+    -fx-padding: 8 8 8 8;
+
+}
+
+.window-bar-button:hover {
+    -fx-effect: innershadow(two-pass-box, black, 4, 0.0, 0, 1);
+}
+
+.window-bar-button-icon:hover {
+    -fx-effect: dropshadow(two-pass-box , black, 1, 0.0 , 0, 1.4);
+}
+
+.window-region {
+    -fx-padding: 4 4 4 4;
+}
+
+.window-title {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}

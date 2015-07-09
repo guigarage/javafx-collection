@@ -1,0 +1,12 @@
+.iconified-button {
+    -fx-skin: "com.guigarage.controls.IconifiedButtonSkin";
+    -fx-font-family: FontAwesome !important;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+}
+
+.iconified-button .text {
+    -fx-font-family: FontAwesome !important;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Asap';
+    src: url('Asap-Regular.otf');
+}
+
+.text {
+    -fx-font-family: "Asap";
+}
+
+#toolbar-action {
+    -fx-font-size: 24;
+}
+
+.toolbar-text {
+    -fx-font-size: 24;
+}
+
+#toolbar {
+    -fx-background-color: yellow;
+    -fx-padding: 8 4 8 4;
+    -fx-border-color: darkgray;
+    -fx-border-width: 0 0 2 0;
+}
+
+/* Ab jetzt das richtige Material Design */
+
+.material-toolbar {
+    -fx-pref-height: 64;
+}
+
+.material-toolbar-text {
+    -fx-font-size: 24;
+}

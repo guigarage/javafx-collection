@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<GridPane hgap="12.0" vgap="12.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f604.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f618.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f633.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f603.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f61a.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f601.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f600.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f617.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f614.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f60a.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f619.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f60c.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f64a.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f61c.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f612.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f609.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f61d.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f61e.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="0">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f60d.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="1">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f61b.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
+      <image>
+        <Image url="file:/Users/hendrikebbers/Documents/git/flatterfx/src/main/resources/com/guigarage/flatterfx/emoji/1f64a.png" />
+      </image>
+    </ImageView>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="32.0" minWidth="32.0" prefWidth="32.0" />
+  </columnConstraints>
+  <padding>
+    <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+  </padding>
+  <rowConstraints>
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>

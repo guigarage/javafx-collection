@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.ttf');
+}
+
+@font-face {
+    font-family: 'EmojiSymbols';
+    src: url('EmojiSymbols-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSansEmoji';
+    src: url('OpenSansEmoji.ttf');
+}
+
+@font-face {
+    font-family: 'Symbola';
+    src: url('Symbola.ttf');
+}
+
+/* Apple Color Emoji on Mac */

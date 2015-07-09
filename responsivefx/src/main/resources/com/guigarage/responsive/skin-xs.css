@@ -1,0 +1,31 @@
+.visible-sm {
+    visibility: collapse;
+}
+
+.visible-md {
+    visibility: collapse;
+}
+
+.visible-lg {
+    visibility: collapse;
+}
+
+.visible-xs {
+    visibility: visible;
+}
+
+.hidden-sm {
+    visibility: visible;
+}
+
+.hidden-md {
+    visibility: visible;
+}
+
+.hidden-lg {
+    visibility: visible;
+}
+
+.hidden-xs {
+    visibility: collapse;
+}

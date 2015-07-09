@@ -1,0 +1,107 @@
+#java-one-image {
+    -fx-background-color: #436e90;
+}
+
+
+.large-button {
+    -flatter-red : #fd9415;
+    -fx-min-width: 80;
+}
+.large-button:large-device {
+    -fx-content-display : top;
+    -fx-graphic-text-gap: 5;
+    -fx-padding         : 0.7em 0.9em 0.7em 0.9em;
+}
+.large-button:medium-device {
+    -fx-graphic-text-gap: 5;
+    -fx-padding         : 0.7em 0.5em 0.7em 0.5em;
+}
+.large-button:small-device {
+    -fx-graphic-text-gap: 5;
+    -fx-font-size       : 18;
+    -fx-padding         : 0.5em 0.4em 0.5em 0.4em;
+}
+.large-button:extreme-small-device {
+    -visibility        : visible;
+    -fx-content-display: graphic-only;
+    -fx-padding        : 0.3em;
+}
+
+
+.grid {
+
+}
+.grid:large-device {
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+}
+.grid:medium-device {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+.grid:small-device {
+    -fx-hgap: 6;
+    -fx-vgap: 6;
+}
+.grid:extreme-small-device {
+    -fx-hgap: 3;
+    -fx-vgap: 3;
+}
+
+
+#text-area {
+    -fx-pref-row-count: 50;
+    -fx-wrap-text     : true;
+}
+#text-area:large-device {
+    -fx-font-size: 20;
+}
+#text-area:medium-device {
+    -fx-font-size: 18;
+}
+#text-area:small-device {
+    -fx-font-size: 16;
+}
+#text-area:extreme-small-device {
+    -fx-font-size: 12;
+    visibility   : false;
+}
+
+
+.small-button {
+    -flatter-red : #436e90;
+    -fx-min-width: 80;
+}
+.small-button:large-device {
+    -fx-content-display : top;
+    -fx-padding         : 0.7em 0.9em 0.7em 0.9em;
+}
+.small-button:medium-device {
+    -fx-padding         : 0.7em 0.5em 0.7em 0.5em;
+}
+.small-button:small-device {
+    -fx-font-size       : 18;
+    -fx-padding         : 0.5em 0.4em 0.5em 0.4em;
+}
+.small-button:extreme-small-device {
+    -visibility  : visible;
+    -fx-font-size: 12;
+    -fx-padding  : 1em;
+}
+
+
+#main-pane {
+
+}
+#main-pane:large-device {
+
+}
+#main-pane:medium-device {
+
+}
+#main-pane:small-device {
+
+}
+#main-pane:extreme-small-device {
+    -visibility: visible;
+}

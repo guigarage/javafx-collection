@@ -1,0 +1,18 @@
+.simple-media-cell {
+    -fx-padding: 6;
+    -fx-spacing: 4;
+}
+
+.media-cell-title {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.media-cell-description {
+    -fx-font-size: 14;
+    -fx-font-weight: lighter;
+}
+
+.round-image-view-circle {
+    -fx-stroke: blue;
+}

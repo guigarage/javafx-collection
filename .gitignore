@@ -10,3 +10,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea
+javafx-collection.iml
+animations/animations.iml
+controls/controls.iml
+css-helper/css-helper.iml
+demos/demos.iml
+extreme-ui/extreme-ui.iml
+flatter/flatter.iml
+imaging/imaging.iml
+incubator/incubator.iml
+login-with-fx/login-with-fx.iml
+material-design-fx/material-design-fx.iml
+responsivefx/responsivefx.iml
+stylemanager/stylemanager.iml
+third-dimension/third-dimension.iml
+ui-basics/ui-basics.iml
+window-styler/window-styler.iml

@@ -1,0 +1,229 @@
+.round-image-view-circle {
+    -fx-stroke: black;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .decrement-arrow {
+    -fx-background-color: lightgray;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .decrement-arrow:hover {
+    -fx-background-color: darkgrey;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .increment-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .increment-arrow {
+    -fx-background-color: lightgray;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .increment-arrow:hover {
+    -fx-background-color: darkgrey;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-border-color: transparent;
+    -fx-background-color: lightgray;
+    -fx-background-insets: 6 6 6 6;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: darkgrey;
+}
+
+.scroll-bar .thumb:selected {
+    -fx-background-color: darkgrey;
+}
+
+.scroll-bar .thumb:focused {
+    -fx-background-color: darkgrey;
+}
+
+
+.table-view {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.table-view:focused {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.column-header-background {
+    -fx-background-color: white;
+}
+
+.column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.column-header-background .nested-column-header {
+    -fx-background-color: transparent;
+}
+
+.table-column {
+    -fx-background-color: transparent;
+    -fx-border-color: lightgray;
+    -fx-border-width: 0.5 0.5 0.5 0.5;
+    -fx-padding: 6 1 6 1;
+}
+
+.table-column .label {
+    -fx-padding: 12 1 10 1;
+    -fx-text-fill: black;
+}
+
+.table-row-cell:even {
+    -fx-background-color: white;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: white;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: lightgray;
+}
+.table-row-cell .text {
+    -fx-background-color: transparent;
+    -fx-fill: black;
+}
+
+.list-view {
+    -fx-background-color: null !important;
+    -fx-background-insets: 0, 0 !important;
+    -fx-padding: 0 !important;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+#playButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+}
+
+#play-circle {
+    -fx-fill: orange;
+    -fx-stroke: darkorange;
+}
+
+#infoBox {
+    -fx-background-color: rgba(0%, 0%, 0%, 0.6);
+}
+
+#infoBox .text{
+    -fx-fill: white;
+}
+
+.chart-title {
+    visibility: hidden;
+}
+
+.axis  {
+    visibility: collapse;
+}
+
+.slider .track {
+    -fx-background-color: white;
+    -fx-max-height: 1;
+    -fx-pref-height: 1;
+    -fx-border-color: transparent;
+}
+
+.slider .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-border-color: orange;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+    -fx-max-width: 2;
+    -fx-pref-width: 2;
+}
+
+#logoButton {
+    -fx-text-fill: darkblue;
+    -fx-icon-text: "\uf001";
+    -fx-font-size: 128;
+}
+#logoButton .text {
+    -fx-stroke: lightblue;
+    -fx-stroke-width: 2;
+}
+#logoButton:small-device {
+    -fx-font-size: 128;
+}
+#logoButton:medium-device {
+    -fx-font-size: 256;
+}
+#logoButton:large-device {
+    -fx-font-size: 256;
+}
+
+#goButton {
+    -fx-text-fill: darkblue;
+    -fx-font-size: 20;
+    -fx-icon-text: "\uf0a9";
+    -fx-padding: 0 0 0 4;
+}
+
+#goButton:medium-device {
+    -fx-font-size: 40;
+}
+
+#searchField:medium-device {
+    -fx-font-size: 26;
+}
+
+#goButton:large-device {
+    -fx-font-size: 40;
+}
+
+#searchField:large-device {
+    -fx-font-size: 26;
+}
+
+#musicButton {
+    -fx-text-fill: lightgray;
+    -fx-font-size: 18;
+    -fx-icon-text: "\uf001";
+    -fx-padding: 8 6 4 2;
+}
+
+.media-cell-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+
+
+.media-cell-description {
+    -fx-font-weight: lighter;
+    -fx-font-style: italic;
+    -fx-text-fill: darkgrey;
+}
+
+#searchBackground:extreme-small-device {
+    -fx-background-color: lavender;
+}

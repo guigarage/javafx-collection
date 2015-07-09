@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Beautiful Every Time";
+    src: url(BeautifulEveryTime.ttf);
+}
+
+.text-area {
+    -fx-background-image: url(notepad-background.png);
+    -fx-font-family: "Beautiful Every Time";
+    -fx-font-size: 16;
+    -fx-wrap-text: true;
+}
+
+.text-area .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-padding: 26 16 16 22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.window-bar {
+    -fx-background-color: purple;
+    -fx-border-color: darkgrey;
+    -fx-min-height: 64;
+    -fx-pref-height: 64;
+    -fx-max-height: 64;
+    -fx-background-radius: 4 4 0 0;
+    -fx-border-radius: 4 4 0 0;
+    -fx-border-width: 1.6;
+    -fx-padding: 10 8 0 0;
+    -fx-background-repeat: repeat;
+}
+
+.window-title {
+    -fx-font-family: "Hand Of Sean (Demo)";
+    -fx-font-size: 33;
+    -fx-text-fill: white;
+}
+
+.window-bar-button {
+    -fx-effect: innershadow(two-pass-box, lightgray, 4, 0.0, 0, 1);
+    -fx-min-height: 24;
+    -fx-pref-height: 24;
+    -fx-min-width: 24;
+    -fx-pref-width: 24;
+    -fx-background-radius: 12;
+    -fx-border-color: black;
+    -fx-border-radius: 12;
+    -fx-border-width: 2 !important;
+    -fx-padding: 8 8 8 8;
+}
+
+.window-bar-button-icon {
+    -fx-font-size: 10;
+    -fx-font-family: FontAwesome;
+    -fx-fill: white;
+}

@@ -1,0 +1,14 @@
+.bubble {
+    -fx-stroke: white;
+    -fx-fill: #da3c4f;
+}
+
+.bubble-pane {
+    -fx-background-color: #da3c4f;
+    -fx-border-color: #ff8087;
+    -fx-border-width: 4;
+}
+
+.tube-background {
+    -fx-fill: white;
+}

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.ttf');
+}
+
+.text {
+    -fx-font-family: "Roboto";
+}
+
+.material-toolbar {
+    -fx-pref-height: 64;
+    -fx-padding: 16 12 16 12;
+}
+
+.material-toolbar:extreme-small-device {
+    -fx-pref-height: 64;
+    -fx-padding: 16 12 16 12;
+    -fx-effect: dropshadow(two-pass-box , darkslategray, 3, 0.1, 0, 0);
+}
+
+.material-toolbar:small-device {
+    -fx-pref-height: 192;
+    -fx-padding: 16;
+    -fx-effect: dropshadow(two-pass-box , darkslategray, 3, 0.1, 0, 0);
+}
+
+.material-toolbar:medium-device {
+    -fx-pref-height: 256;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(two-pass-box , darkslategray, 3, 0.1, 0, 0);
+}
+
+.material-toolbar:large-device {
+    -fx-pref-height: 256;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(two-pass-box , darkslategray, 3, 0.1, 0, 0);
+}
+
+.material-toolbar-text {
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.material-toolbar-text:extreme-small-device {
+    -fx-alignment: center-left;
+}
+
+.material-toolbar-text:medium-device {
+    -fx-font-size: 32;
+}
+
+.material-toolbar-text:large-device {
+    -fx-font-size: 32;
+}
+
+#content-wrapper {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(two-pass-box , darkslategray, 3, 0.1, 0, 0);
+}
+
+#content-wrapper:small-device {
+    -fx-effect: dropshadow(two-pass-box , black, 5, 0.1, 0, 1.4);
+}
+
+#content-wrapper:medium-device {
+    -fx-effect: dropshadow(two-pass-box , black, 5, 0.1, 0, 1.4);
+}
+
+#content-wrapper:large-device {
+    -fx-effect: dropshadow(two-pass-box , black, 5, 0.1, 0, 1.4);
+}
+
+#content-padding:small-device {
+    -fx-padding: -128 32 32 32;
+}
+
+#content-padding:medium-device {
+    -fx-padding: -160 64 64 64;
+}
+
+#content-padding:large-device {
+    -fx-padding: -160 92 64 92;
+}
+
+#background-pane {
+    -fx-background-color: lightgray;
+    -fx-alignment: center;
+}
+
+.material-toolbar-action {
+    -fx-skin: "com.guigarage.material.MaterialToolbarButtonSkin";
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-padding: 0 2 0 2;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-alignment: bottom-center;
+}
+
+.material-toolbar-action:extreme-small-device {
+    -fx-font-size: 20;
+}
+
+.material-toolbar-action:small-device {
+    -fx-font-size: 24;
+    -fx-padding: 0 4 0 4;
+}
+
+.material-toolbar-action:medium-device {
+    -fx-font-size: 32;
+    -fx-padding: 0 6 0 6;
+}
+
+.material-toolbar-action:large-device {
+    -fx-font-size: 32;
+    -fx-padding: 0 6 0 6;
+}
+
+.material-toolbar-action .text {
+    -fx-font-family: FontAwesome;
+}

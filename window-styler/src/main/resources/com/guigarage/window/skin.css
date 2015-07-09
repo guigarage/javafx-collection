@@ -1,0 +1,101 @@
+.window-region {
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 4 4 4 4;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 4 4 4 4;
+    -fx-border-width: 1.2;
+}
+
+.window-region:window-focused {
+    -fx-border-color: gray;
+    -fx-background-color: white;
+}
+
+.window-region:window-fullscreen {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-background-color: white;
+}
+
+.window-bar {
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 4 4 0 0;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 4 4 0 0;
+    -fx-border-width: 1.2;
+    -fx-padding: 0 8 0 0;
+}
+
+.window-bar:window-focused {
+    -fx-background-color: lightgray;
+    -fx-border-color: gray;
+}
+
+.window-bar:window-fullscreen {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-background-color: lightgray;
+    -fx-border-color: gray;
+}
+
+.window-bar-button {
+    -fx-padding: 2 10 2 10;
+
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 0 0 4 4;
+
+    -fx-border-color: lightgray;
+    -fx-border-width: 1.2 1.2 1.2 1.2;
+    -fx-border-radius: 0 0 4 4;
+    -fx-translate-y: -1.2;
+}
+
+.window-bar-button:window-focused {
+    -fx-border-color: gray black black black;
+}
+
+.window-bar-button:window-fullscreen {
+    -fx-border-color: gray black black black;
+}
+
+#window-close-button {
+    -fx-background-radius: 0 0 4 0;
+    -fx-border-radius: 0 0 4 0;
+    -fx-border-width: 1.2 1.2 1.2 0.6;
+}
+
+#window-close-button:window-focused {
+    -fx-background-color: lightcoral;
+}
+
+#window-close-button:window-fullscreen {
+    -fx-background-color: lightcoral;
+}
+
+#window-close-button:hover {
+    -fx-background-color: red;
+}
+
+#window-fullscreen-button {
+    -fx-background-radius: 0 0 0 4;
+    -fx-border-radius: 0 0 0 4;
+    -fx-border-width: 1.2 0.6 1.2 1.2;
+}
+
+#window-fullscreen-button:window-focused {
+    -fx-background-color: lightgreen;
+}
+
+#window-fullscreen-button:window-fullscreen {
+    -fx-background-color: lightgreen;
+}
+
+#window-fullscreen-button:hover {
+    -fx-background-color: green;
+}
+
+.window-bar-button-icon {
+    -fx-font-size: 16;
+    -fx-font-family: FontAwesome;
+    -fx-fill: white;
+}
